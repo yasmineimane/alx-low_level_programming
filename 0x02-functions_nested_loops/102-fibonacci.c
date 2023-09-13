@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int term1 = 1;
-	int term2 = 2;
+	unsigned long int term1 = 1;
+	unsigned long int term2 = 2;
 	int next;
 	int i;
 
