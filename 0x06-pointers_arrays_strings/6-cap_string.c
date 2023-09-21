@@ -11,19 +11,22 @@
 
 char *cap_string(char *str)
 {
-	int i = 0;
+	int i, j;
+	char sp[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
 
-	while (i != '\0')
+	for (i = 0 ; str[i] != '\0' ; i++)
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
-			str[i] = str[i] - 32;
-		else if (str[i] == '.')
-			str[i] = '.';
-		else if (str[i] == '\n')
-			printf("\n");
-		else if (str[i] == '\t')
-			str[i] = ' ';
-		i++;
+		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
+			str[i] -= 32;
+		for (j = 0 ; j < 13 ; j++)
+		{
+			if (str[i] == sp[j])
+			{
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+					str[i + 1] -= 32;
+			}
+		}
 	}
 	return (str);
 }
