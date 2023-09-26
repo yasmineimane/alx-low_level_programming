@@ -2,7 +2,7 @@
 
 /**
  * set_string - function that sets the value of a pointer to a char.
- * @*s: Prameter to be checked
+ * @s: Prameter to be checked
  * @to: Parameter to be checked
  * 
  * Return: On success 1.
