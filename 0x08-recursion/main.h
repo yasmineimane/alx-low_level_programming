@@ -9,5 +9,7 @@ int check_prime(int n, int i);
 int is_prime_number(int n);
 int _sqrt_recursion(int n);
 void _print_rev_recursion(char *s);
+int count_length(char *s, int i);
+int _strlen_recursion(char *s);
 
 #endif
