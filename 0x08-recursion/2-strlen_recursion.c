@@ -20,7 +20,7 @@ return(count_length(s, 0));
 
 int count_length(char *s, int i)
 {
-    if (*s == '\0')
-        return (i);
-    return (count_length(s + 1, i + 1));
+if (*s == '\0')
+return (i);
+return (count_length(s + 1, i + 1));
 }
