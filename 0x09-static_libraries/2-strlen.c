@@ -4,15 +4,14 @@
 /**
  * _strlen -  function that returns the length of a string.
  * @s: parameter to be checked
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 
 int _strlen(char *s)
 {
-	int L;
+int L;
 
-	L = strlen(s);
-	return (L);
+L = strlen(s);
+return (L);
 }

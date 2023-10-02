@@ -5,15 +5,14 @@
  * _strcpy - function that copies the string pointed
  * @dest: The string to print
  * @src: The string to be copied
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	char *s;
+char *s;
 
-	s = strcpy(dest, src);
-	return (s);
+s = strcpy(dest, src);
+return (s);
 }

@@ -6,15 +6,14 @@
  * @dest: The string to be copy
  * @src: The string to be copy
  * @n: The size of the string
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *s;
+char *s;
 
-	s = strncpy(dest, src, n);
-	return (s);
+s = strncpy(dest, src, n);
+return (s);
 }

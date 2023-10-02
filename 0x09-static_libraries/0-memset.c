@@ -5,7 +5,6 @@
  * @n: Prameter to be checked
  * @b: Parameter to be checked
  * @s: Parameter to be checked
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -16,7 +15,7 @@ unsigned int i;
 
 for (i = 0 ; i < n ; i++)
 {
-    s[i] = b;
+s[i] = b;
 }
 return (s);
 }
