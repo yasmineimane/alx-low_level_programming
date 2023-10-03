@@ -4,7 +4,7 @@
  * main - print program name.
  * @argc: arguments count.
  * @argv: arguments vector/
- * Retun: 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
