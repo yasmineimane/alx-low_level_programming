@@ -3,6 +3,7 @@
 /**
  * malloc_checked - allocates memory
  * @b: integer
+ * Return: void
  */
 
 void *malloc_checked(unsigned int b)
