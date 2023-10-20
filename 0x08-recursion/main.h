@@ -12,5 +12,7 @@ int _sqrt_recursion(int n);
 void _print_rev_recursion(char *s);
 int count_length(char *s, int i);
 int _strlen_recursion(char *s);
+int is_palindrome(char *s);
+int compare_string(char *s, int left, int right);
 
 #endif
