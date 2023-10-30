@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * read_textfile - reads a text file and prints it to the POSIX standard output.
+ * read_textfile - reads a text file and prints it to the POSIX.
  * @filename: file name (string pointer)
  * @letters: the number of letters it should read and print
  *
@@ -25,7 +25,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buff = malloc(sizeof(char) * letters);
 	if (buff == NULL)
 		return (0);
-	
+
 	nrd = read(fd, buff, letters);
 	nwr = write(STDOUT_FILENO, buff, nrd);
 
