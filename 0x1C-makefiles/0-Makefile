@@ -1,3 +1,4 @@
 #Makefile for building the 'school' executable
+
 all:
 	gcc main.c school.c -o school
